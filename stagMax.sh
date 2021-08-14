@@ -10,7 +10,7 @@ chmod 755 chia_plot
 #wget https://slackware.uk/slackware/slackware64-current/slackware64/ap/screen-4.8.0-x86_64-4.txz
 #upgradepkg --install-new screen-4.8.0-x86_64-4.txz
 mkdir ~/stagMax/chialogs && chmod 755 ~/stagMax/chialogs
-ls ~/stagMax/chialogs
+touch ~/stagMax/runme.sh && chmod +x ~/stagMax/runme.sh
 
 #execute on formatted device mounts, make sure you end ALL mounts with a / or it crashes. Double check.
 readonly pk='XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
